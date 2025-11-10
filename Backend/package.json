@@ -1,0 +1,20 @@
+{
+  "name": "brillx-platform",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "init-db": "node initDB.js"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "@clerk/clerk-js": "^5.105.0",
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.19.3"
+  }
+}
